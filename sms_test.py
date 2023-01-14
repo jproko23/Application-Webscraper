@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 message = client.messages.create(
                               body='insert_text_here',
                               from_='+12565810321',
-                              to='+17089969412'
+                              to='+__________'
                           )
 
 print(message.sid)
